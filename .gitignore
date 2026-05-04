@@ -1,0 +1,8 @@
+*.pyo
+*.pyc
+.idea
+dist/*
+*.egg-info
+setup.py
+man/mchroot.1.rst
+man/mchroot.1
