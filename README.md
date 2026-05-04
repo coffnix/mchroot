@@ -82,7 +82,7 @@ https://github.com/sakaki-/gentoo-on-rpi3-64bit/wiki/Build-aarch64-Packages-on-y
 
 This project is a fork of fchroot and retains its original licensing.
 
-Copyright 2020 Daniel Robbins, Funtoo Solutions, Inc.
+Copyright 2020 Daniel Robbins
 
 Licensed under the Apache License, Version 2.0
 http://www.apache.org/licenses/LICENSE-2.0

@@ -7,12 +7,12 @@ setuptools.setup(
     name="mchroot",
     packages=["mchroot"],
     version="##VERSION##",
-    author="Daniel Robbins",
-    author_email="drobbins@funtoo.org",
-    description="Funtoo franken-chroot tool.",
+    author="Coffnix (MacaroniOS)"
+    author_email="raphael@vipnix.com.br",
+    description="MacaroniOS cross-architecture chroot tool (forked from fchroot created by Daniel Robbins).",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://code.funtoo.org/bitbucket/users/drobbins/repos/mchroot/browse",
+    url="https://github.com/coffnix/mchroot",
     scripts=['bin/mchroot'],
     classifiers=[
         "Programming Language :: Python :: 3",

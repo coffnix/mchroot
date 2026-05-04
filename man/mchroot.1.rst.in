@@ -3,18 +3,18 @@ mchroot
 =======
 
 ---------------------------------------------
-Funtoo Linux System Management Meta-Command
+MacaroniOS System Management Tool
 ---------------------------------------------
 
-:Author: Daniel Robbins <drobbins@funtoo.org>
+:Author: Coffnix <raphael@vipnix.com.br>
 :Version: ##VERSION##
 :Manual section: 1
-:Manual group: Funtoo Linux Core System
+:Manual group: MacaroniOS Core System
 
 SYNOPSIS
 --------
 
-``mchroot``, also known as "Franken-Chroot" or "Funtoo Chroot", is a utility
+``mchroot``, also known as "Franken-Chroot" or "MacaroniOS Chroot", is a utility
 that helps you to leverage the magic of QEMU to chroot into a non-native
 system. For example, on your x86-compatible 64-bit PC, it is possible to chroot
 into a 32-bit or 64-bit foreign architecture root filesystem and have it
