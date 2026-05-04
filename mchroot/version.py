@@ -1,2 +1,2 @@
 __version__ = "1.0.3"
-__codename__ = "Valley of the Moles"
+__codename__ = "Forge of Ken Thompson & Dennis Ritchie"
