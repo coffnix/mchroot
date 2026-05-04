@@ -5,6 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mchroot",
+    packages=["mchroot"],
     version="##VERSION##",
     author="Daniel Robbins",
     author_email="drobbins@funtoo.org",
