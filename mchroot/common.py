@@ -115,7 +115,9 @@ def bind_mount(chroot_path, umount=False):
                     bindopt = "--rbind"
                 else:
                     bindopt = "--bind"
-                mount_cmd = ["/bin/mount", bindopt, f"/{src}", dest_abs]
+                #mount_cmd = ["/bin/mount", bindopt, f"/{src}", dest_abs]
+                mount_cmd = ["/bin/mount", bindopt, f"{src}", dest_abs]
+
                 badval = None
             if action == "mount" and os.path.ismount(dest_abs):
                 sys.stderr.write(GREEN + f" {action}: /{dest} (already mounted)\n")
