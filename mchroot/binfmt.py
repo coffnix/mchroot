@@ -63,11 +63,11 @@ qemu_arch_settings = {
 		},
 	},
 	'x86-32bit': {
-		'qemu-binary': 'qemu-i386',
+		'qemu_binary': 'qemu-i386',
 		'qemu_cpu': 'max',
 		'elf': {
-			'magic': '7f454c46010101000000000000000000020003',
-			'mask': 'ffffffffffffff00fffffffffffffffffffeffff',
+			'magic': '7f454c4601010100000000000000000002000300',
+			'mask': 'fffffffffffefe00fffffffffffffffffeffffff',
 		},
 		'native-support': ['x86-64bit']
 	}
